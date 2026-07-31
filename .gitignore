@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model artifacts
+models/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Temporary outputs
+tmp/
+downloads/
