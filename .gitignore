@@ -28,3 +28,6 @@ checkpoints/
 # Temporary outputs
 tmp/
 downloads/
+
+# Local Codex project instructions
+/AGENTS.md
