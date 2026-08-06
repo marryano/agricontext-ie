@@ -114,3 +114,41 @@ The adapted model should outperform its base model on:
 - Unsupported-claim rate
 - Response-format compliance
 - Clarity and practical usefulness
+
+## Risk-label rubric
+
+### LOW_RISK
+
+The supplied evidence indicates that the field is currently firm and
+trafficable, with no strong signs of waterlogging, poaching or structural
+weakness. The planned livestock or machinery pressure is limited and no
+major contradictory risk factor has been supplied.
+
+LOW_RISK does not mean zero risk or guaranteed suitability.
+
+### MODERATE_RISK
+
+One or more meaningful risk factors are present, but limited access may
+be possible with precautions such as shorter grazing periods, back
+fencing, multiple access points, lighter loads or close monitoring.
+
+The answer must explain the precautions and remaining uncertainty.
+
+### HIGH_RISK
+
+The supplied evidence strongly indicates a substantial risk of rutting,
+poaching, compaction or sward damage. Examples include visible softness,
+standing water, active poaching, wet soil combined with a heavy load, or
+repeated livestock traffic under poor conditions.
+
+The normal next step should be to delay, stop access, move livestock or
+choose a more suitable paddock.
+
+### INSUFFICIENT_CONTEXT
+
+Essential information needed for a defensible assessment has not been
+provided. Relevant missing information may include current field
+condition, soil drainage, recent weather, forecast weather, planned load,
+access pattern or the proposed operation.
+
+The model must identify the missing information instead of guessing.
