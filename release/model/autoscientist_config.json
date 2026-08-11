@@ -1,0 +1,29 @@
+{
+  "finetune_job_id": "4080ab61-6ecd-4539-84ed-e328eebd62cf",
+  "training_experiment_id": "963e2d81-7268-45e4-b019-85b8a2abf57a",
+  "original_model_name": "meta-llama/Llama-3.3-70B-Instruct-Reference",
+  "trained_model_name": "adaption_irish_dairy_soil_risk",
+  "training_method": "sft",
+  "training_type": "lora",
+  "data_format": "chat",
+  "hyperparams": {
+    "lora": true,
+    "lora_r": 8,
+    "n_evals": 5,
+    "n_epochs": 1,
+    "batch_size": "max",
+    "lora_alpha": 8,
+    "lora_dropout": 0,
+    "min_lr_ratio": 0.1,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0,
+    "learning_rate": 0.0001,
+    "max_grad_norm": 2,
+    "base_model_size": "70B",
+    "train_on_inputs": false,
+    "training_method": "sft",
+    "lr_scheduler_type": "cosine",
+    "scheduler_num_cycles": 0.5,
+    "lora_trainable_modules": "q_proj,v_proj"
+  }
+}
