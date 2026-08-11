@@ -1,0 +1,14 @@
+{
+  "ownerSlug": "martharyan",
+  "modelSlug": "agricontext-ie",
+  "instanceSlug": "lora-adapter",
+  "framework": "pytorch",
+  "overview": "",
+  "usage": "LoRA/PEFT adapter trained by Adaption AutoScientist",
+  "licenseName": "Apache 2.0",
+  "fineTunable": false,
+  "trainingData": [],
+  "modelInstanceType": "Unspecified",
+  "baseModelInstanceId": 0,
+  "externalBaseModelUrl": ""
+}

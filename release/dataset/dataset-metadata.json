@@ -1,0 +1,10 @@
+{
+  "title": "AgriContext-IE Adapted Training Dataset",
+  "id": "martharyan/agricontext-ie",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ],
+  "description": "An Ireland-first agricultural instruction-tuning dataset for field trafficability, soil damage, grazing and poaching-risk decisions. It contains 40 manually reviewed seed examples expanded to 22,736 rows through Adaption."
+}
