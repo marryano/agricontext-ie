@@ -13,13 +13,28 @@ not contain enough field-level information, the model returns
 ## Current state
 
 - 40 reviewed training examples, balanced across four risk labels
+- A 22,736-row adapted training dataset produced from those seed examples
 - 20 reviewed evaluation cases, including four contrastive pairs
 - A LoRA adapter trained by AutoScientist on Llama 3.3 70B Instruct
 - Reproducible scripts for baseline and adapted-model evaluation
 - Claims traced to official Met Éireann and Teagasc sources
 
-The model has not yet been scored on the frozen benchmark, so no performance
-improvement is claimed here.
+AutoScientist completed three research iterations and reported a **66.19%
+head-to-head win rate** for the adapted model against the original base model.
+This is a pairwise preference result, not 66.19% absolute accuracy or relative
+improvement. The separate frozen project benchmark has not yet been scored.
+
+## Open-source releases
+
+- [Hugging Face dataset](https://huggingface.co/datasets/martharyan/agricontext-ie)
+- [Hugging Face model](https://huggingface.co/martharyan/agricontext-ie)
+- [Kaggle dataset](https://www.kaggle.com/datasets/martharyan/agricontext-ie)
+- [Kaggle model](https://www.kaggle.com/models/martharyan/agricontext-ie)
+
+The 40 seed examples were manually reviewed. Adaption expanded them into the
+22,736-row final training dataset; the generated rows were not individually
+reviewed. The 20-case evaluation set remains separate and was not included in
+training.
 
 ## Output format
 
@@ -50,6 +65,7 @@ from a qualified professional.
 data/seed/          Reviewed training examples
 data/evaluation/    Frozen held-out benchmark
 docs/               Task definition, evidence, and evaluation plan
+release/dataset/    Final adapted dataset and publication metadata
 release/model/      AutoScientist LoRA adapter and configuration
 scripts/            Validation and evaluation tools
 tests/              Evaluation-pipeline tests
